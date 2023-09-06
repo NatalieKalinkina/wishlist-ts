@@ -1,2 +1,2 @@
 # wishlist
-Веб-сервис для  шаринга списков желаемых подарков
+Web service for creating wishlists

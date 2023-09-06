@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -7,9 +7,78 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <title>Wishlist</title>
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+  <body class="page">
+    <header class="header">
+      <img src="./images/logo.png" class="header__logo" alt="логотип" />
+    </header>
+    <main class="content">
+      <nav class="menu">
+        <a href="#" class="link"><div class="menu__icon menu__icon_type_add"></div></a>
+        <a href="#" class="link"><div class="menu__icon menu__icon_type_auth"></div></a>
+      </nav>
+      <div class="wishlists">
+        <div class="wishlist">
+          <div class="wishlist__text-column">
+            <h2 class="wishlist__title">Вишлист на первый день рождения Милы</h2>
+            <p class="wishlist__subtitle">Ждут дарителя: 5 подарков из 17</p>
+          </div>
+          <div class="wishlist__tech-column">
+            <div class="wishlist__icons">
+              <a href="#" class="link"
+                ><div class="wishlist__icon wishlist__icon_type_share"></div
+              ></a>
+              <a href="#" class="link"
+                ><div class="wishlist__icon wishlist__icon_type_delete"></div
+              ></a>
+            </div>
+            <p class="wishlist__deadline">к 8 октября 2023 года</p>
+          </div>
+        </div>
+
+        <div class="wishlist">
+          <div class="wishlist__text-column">
+            <h2 class="wishlist__title">Вишлист на Новый год</h2>
+            <p class="wishlist__subtitle">Ждут дарителя: 12 подарков из 12</p>
+          </div>
+          <div class="wishlist__tech-column">
+            <div class="wishlist__icons">
+              <a href="#" class="link"
+                ><div class="wishlist__icon wishlist__icon_type_share"></div
+              ></a>
+              <a href="#" class="link"
+                ><div class="wishlist__icon wishlist__icon_type_delete"></div
+              ></a>
+            </div>
+            <p class="wishlist__deadline">к 31 декабря 2023 года</p>
+          </div>
+        </div>
+
+        <div class="wishlist">
+          <div class="wishlist__text-column">
+            <h2 class="wishlist__title">Приятные мелочи, которые меня порадуют</h2>
+            <p class="wishlist__subtitle">Ждут дарителя: 3 подарка из 15</p>
+          </div>
+          <div class="wishlist__tech-column">
+            <div class="wishlist__icons">
+              <a href="#" class="link"
+                ><div class="wishlist__icon wishlist__icon_type_share"></div
+              ></a>
+              <a href="#" class="link"
+                ><div class="wishlist__icon wishlist__icon_type_delete"></div
+              ></a>
+            </div>
+            <p class="wishlist__deadline">к 8 октября 2023 года</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/NatalieKalinkina" class="link">
+        <div class="footer__link">
+          <div class="footer__icon"></div>
+          <p class="footer__author">NatalieKalinkina</p>
+        </div>
+      </a>
+    </footer>
   </body>
 </html>

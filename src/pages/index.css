@@ -72,7 +72,7 @@
 .menu {
   width: 100%;
   margin: 0 auto;
-  padding: 0 0 30px;
+  padding: 0 0 20px;
   display: flex;
   flex-direction: row;
   gap: 30px;
@@ -95,13 +95,30 @@
   background-image: url(../images/user_icon.svg);
 }
 
+.link {
+  text-decoration: none;
+  color: black;
+}
+
 .link:hover {
   opacity: 0.5;
 }
 
-.link {
-  text-decoration: none;
-  color: black;
+.wishlists {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 0 40px;
+}
+
+.wishlist {
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  background-color: rgba(255, 211, 199, 0.3);
+}
+
+.wishlist:hover {
+  background-color: rgba(255, 211, 199, 0.6);
 }
 
 .footer {

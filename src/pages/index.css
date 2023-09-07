@@ -98,3 +98,41 @@
 .link:hover {
   opacity: 0.5;
 }
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  width: 90%;
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 20px 0 20px;
+  border-top: 1px solid #ff709d;
+  box-sizing: border-box;
+}
+
+.footer__link {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: start;
+  align-items: baseline;
+}
+
+.footer__icon {
+  background-image: url(../images/git__icon.svg);
+  width: 16px;
+  height: 16px;
+  background-size: 16px 16px;
+  background-color: transparent;
+}
+
+.footer__author {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}

@@ -166,6 +166,7 @@
   align-items: flex-start;
   padding-top: 5px;
 }
+
 .wishlist__icon {
   width: 25px;
   height: 25px;
@@ -211,26 +212,39 @@
 }
 
 .wish {
-  width: 100%;
-  height: 100px;
-  border-radius: 20px;
-  background-color: rgba(255, 211, 199, 0.3);
-  display: flex;
-  flex-direction: row;
-  gap: 3%;
-  padding: 20px;
-  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 89% 10%;
+  column-gap: 1%;
   margin-bottom: 30px;
 }
 
-.wish:last-of-type {
+.wish__checkbox {
+  height: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  background-color: rgba(255, 211, 199, 0.3);
+}
+
+.wish__info {
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgba(255, 211, 199, 0.3);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.wish__info:last-of-type {
   margin-bottom: 0;
 }
 
-.wish:hover {
+.wish__info:hover {
   background-color: rgba(255, 211, 199, 0.6);
 }
-.wish__gift {
+.wish__main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -252,6 +266,30 @@
   margin-block-start: 0;
   margin-block-end: 0;
   color: #ff3776;
+}
+
+.wish__icons {
+  display: flex;
+  gap: 10px;
+  justify-content: end;
+  align-items: flex-start;
+  padding-top: 5px;
+}
+
+.wish__icon {
+  width: 25px;
+  height: 25px;
+  background-size: 25px 25px;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+
+.wish__icon_type_delete {
+  background-image: url(../images/delete_icon.svg);
+}
+
+.wish__icon_type_edit {
+  background-image: url(../images/edit_icon.svg);
 }
 
 .footer {

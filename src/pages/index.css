@@ -75,7 +75,7 @@
   padding: 0 0 20px;
   display: flex;
   flex-direction: row;
-  gap: 30px;
+  gap: 10px;
   justify-content: end;
 }
 
@@ -211,11 +211,20 @@
   color: #ff3776;
 }
 
+.wishes__deadline {
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-bottom: 20px;
+}
+
 .wish {
   display: grid;
   grid-template-columns: 89% 10%;
   column-gap: 1%;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .wish__checkbox {
@@ -225,15 +234,21 @@
   background-color: rgba(255, 211, 199, 0.3);
 }
 
+.wish__checkbox_type_checked {
+  background-image: url('../images/check_icon.svg');
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 .wish__info {
   height: 50px;
   border-radius: 10px;
   background-color: rgba(255, 211, 199, 0.3);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  gap: 3%;
-  padding: 20px;
+  display: grid;
+  grid-template-columns: 70% 14% 14%;
+  column-gap: 1%;
+  padding: 10px;
   box-sizing: border-box;
 }
 
@@ -251,12 +266,12 @@
 }
 
 .wish__title {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 700;
   margin-block-start: 0;
   margin-block-end: 0;
-  color: black;
+  color: #ff3776;
 }
 
 .wish__link {
@@ -265,21 +280,31 @@
   font-weight: 300;
   margin-block-start: 0;
   margin-block-end: 0;
+  color: black;
+}
+
+.wish__price {
+  font-size: 12px;
+  line-height: 1.2;
+  font-weight: 300;
+  margin-block-start: 0;
+  margin-block-end: 0;
   color: #ff3776;
+  align-self: center;
 }
 
 .wish__icons {
   display: flex;
-  gap: 10px;
+  gap: 5px;
   justify-content: end;
   align-items: flex-start;
-  padding-top: 5px;
+  align-self: center;
 }
 
 .wish__icon {
-  width: 25px;
-  height: 25px;
-  background-size: 25px 25px;
+  width: 15px;
+  height: 15px;
+  background-size: 15px 15px;
   background-color: transparent;
   box-sizing: border-box;
 }

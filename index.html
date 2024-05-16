@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./index.css" />
     <title>Wishlist</title>
   </head>
-  <body class="page">
+  <body class="page" id="app">
     <header class="header">
-      <img src="./images/logo.png" class="header__logo" alt="логотип" />
+      <img src="./src/images/logo.png" class="header__logo" alt="логотип" />
       <div class="header__text">
         <h1 class="header__title">Хочу в <span class="span">подарок</span></h1>
         <h2 class="header__subtitle">Веб-сервис для тех, кто любит дарить и получать подарки</h2>
@@ -26,7 +26,7 @@
       </nav>
       <div class="wishlists">
         <a
-          href="./pages/wishlist.html"
+          href="./src/pages/wishlist.html"
           class="link wishlist__link"
           title="Перейти на страницу вишлиста"
           ><div class="wishlist">
@@ -92,5 +92,6 @@
         </div>
       </a>
     </footer>
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

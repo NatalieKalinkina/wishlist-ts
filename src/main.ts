@@ -1,5 +1,7 @@
-export const wishlists:HTMLDivElement | null= document.querySelector('.wishlists');
+const logo:HTMLImageElement | null= document.querySelector('.header__logo');
 
-if (wishlists) {
-  console.log('Есть вишлисты!');
+const handleLogoClick = () => {
+  console.log('Клик по лого');
 }
+
+logo?.addEventListener('click', handleLogoClick);

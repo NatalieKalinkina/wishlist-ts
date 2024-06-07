@@ -1,5 +1,6 @@
 # wishlist
-Web service for creating wishlists
+Веб-сервис для создания вишлистов. 
+Проект в работе: готова верстка основных страниц + [API для основных запросов](https://github.com/NatalieKalinkina/wishlist-api)
 
 ## Стэк технологий:
 * HTML5
